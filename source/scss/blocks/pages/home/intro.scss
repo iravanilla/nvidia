@@ -131,19 +131,35 @@ main {
     }
 }
 
-@media screen and (max-width: 1000px)  {
-    .main__container {
-        padding: 100px 50px 0;
-    }
+@media (max-width: 1000px)  {
+    .main {
+        &__container {
+            padding: 100px 50px 0;
+        }
 
-    .main__all-card {
-        flex-direction: column;
-        align-self: center;
-    }
-    .main__info {
-        margin: 0 20px;
-        text-align: center;
-    }
+        &__info {
+            margin: 0 20px 60px;
+            text-align: center;
+        }
+        
+        &__all-card {
+            flex-direction: column;
+            align-self: center;
+        }
+
+        &__card {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__card:not(:last-child) {
+            margin-bottom: 60px;
+        }
+
+        &__button-wrapper {
+            margin-bottom: 50px;
+        }
+    }   
 }
     
       
