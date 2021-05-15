@@ -1,0 +1,67 @@
+.modal-content {
+    border: 2px solid #77B900;
+    box-shadow: 0 0 10px 3px rgba(66, 92, 19, 1);
+    background-color: #000;
+    color: #FFF;
+}
+
+.modal-header {
+    border: 0;
+}
+
+.modal-content .close {
+    border: 0;
+    background-color: #000;
+    background-image: url(/img/icons/Cross-normal.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin: 0rem -1rem -1rem auto;
+}
+
+.modal-content .close:hover {
+    background-image: url(/img/icons/Cross-hover.svg);
+    transition: 0.3s;
+}
+
+.modal-content .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 10px;
+}
+
+.modal-content form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.modal-content form input {
+    margin-bottom: 10px;
+    padding: 7px 0 7px 10px;
+}
+
+.modal-content .modal-footer {
+    border: 0;
+}
+
+.modal-content .modal-footer button {
+    margin: 0 auto;
+    padding: 10px 10px 6px 10px;
+    width: 192px;
+    border: 2px solid #77B900;
+    background-color: #77B900;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.modal-content .modal-footer button:hover {
+    background-color: #000;
+    border: 2px solid #77B900;
+    box-shadow: 0 0 10px 3px rgba(66, 92, 19, 1);
+    transition: 0.3s;
+}

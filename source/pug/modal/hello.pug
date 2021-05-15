@@ -1,0 +1,14 @@
+#helloModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				button.close(type='button' data-dismiss='modal' aria-label='Close')
+					span(aria-hidden='true') &times;
+			.modal-body
+				h2 ПРЕИМУЩЕСТВА G-SYNC
+				form(action="#")
+					input(type="text" placeholder="Имя") 
+					input(type="email" placeholder="Mail") 
+			.modal-footer
+				button.btn.btn-secondary(type='button' data-dismiss='modal') Купить
+				//- button.btn.btn-primary(type='button') No way!
